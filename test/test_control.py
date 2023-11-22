@@ -14,6 +14,7 @@ class TestControlTanquera(unittest.TestCase):
         
         #Assertion
         self.assertTrue(revision_placa and lifting_barrier)
+        
 
     
 
