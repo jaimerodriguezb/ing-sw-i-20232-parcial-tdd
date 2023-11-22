@@ -1,6 +1,7 @@
 import unittest
+from src.control import ControlTalanquera 
 
-class ControlTalanquera(unittest.TestCase):
+class TestControlTanquera(unittest.TestCase):
 
     def test_succes(self):
         #fixture
@@ -13,4 +14,8 @@ class ControlTalanquera(unittest.TestCase):
         
         #Assertion
         self.assertTrue(revision_placa and lifting_barrier)
+
+    
+
+        
         
